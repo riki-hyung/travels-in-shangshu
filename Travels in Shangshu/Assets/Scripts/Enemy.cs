@@ -10,6 +10,7 @@ public class Enemy : MonoBehaviour
     [Header("Outside Objects")]
     Rigidbody2D rb2d;
     SpriteRenderer spriteRenderer;
+    public GameObject HeartPrefab;
     
     public float hitPoints = 10f;
     public float currentElement = 0;
@@ -85,6 +86,7 @@ public class Enemy : MonoBehaviour
         hitPoints -= totalDamage;
         if(hitPoints <= 0)
         {
+            Instantiate(HeartPrefab, transform.position, Quaternion.identity);
             Destroy(gameObject);
         }
     }

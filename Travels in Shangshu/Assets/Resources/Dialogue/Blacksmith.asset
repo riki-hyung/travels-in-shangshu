@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d42d47f2fc6a264d838edfc11549671, type: 3}
+  m_Name: Blacksmith
+  m_EditorClassIdentifier: 
+  speakerName: Nian
+  paragraphs:
+  - Heard from one of your guys that I can make a comfy living here. Huh? Where's
+    my tools? Don't have them.
+  - Why? Ugh, there's that lame look on your face. I don't care for boring ass work,
+    and honestly I rather go shopping than make you a new weapon. You should be able
+    to change it by right-clicking or something like that.
+  - You're not strong enough to even stand against me. My weaponry can easily cleave
+    your body and your soul apart.
+  - I'm working on redocorating the place, so don't jump around like an child.
+  - Still talking to me? How annoying, you casters don't understand the importance
+    of weapons for society.
+  - Why do I got to waste my time talking to a third rate amateur? Ugh, anyways I'm
+    not teaching or giving you anything. These things are only useful to people who
+    value them.
+  - It feels so weird to NOT carry a weapon around. So it goes, I guess. I could
+    be using your body as an anvil for my hammer, but you hold nothing but empty
+    dreams and false wishes. A waste of my talents.

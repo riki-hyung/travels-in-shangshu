@@ -16,15 +16,24 @@ public class Bolt : MonoBehaviour
         transform.rotation = rotation;
         elementID = elementType;
         GetComponent<Rigidbody2D>().velocity = transform.right * speed;
+        GetComponent<AudioSource>().Play();
     }
 
     void OnTriggerEnter2D (Collider2D hitInfo)
     {
-        Enemy enemy = hitInfo.GetComponent<Enemy>();
-        if(enemy != null)
+        if(hitInfo.CompareTag("Enemy"))
         {
-            enemy.takeDamage(damage, elementID);
+            Enemy enemy = hitInfo.GetComponent<Enemy>();
+            if(enemy != null)
+            {
+                enemy.takeDamage(damage, elementID);
+            }
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+        if(hitInfo.CompareTag("Box"))
+        {
+            Destroy(hitInfo.gameObject);
+            Destroy(gameObject);
+        }
     }
 }

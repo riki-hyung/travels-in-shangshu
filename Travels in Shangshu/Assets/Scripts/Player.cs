@@ -94,4 +94,18 @@ public class Player : MonoBehaviour
             takeDamage(1f);
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.tag == "Item")
+        {
+            if(currentHP < maxHP)
+            {
+                currentHP +=1;
+            }
+            hpBar.setHealth(currentHP);
+            hpText.text = currentHP.ToString();
+            other.GetComponent<heal>().Grab(this.gameObject);
+        }
+    }
 }

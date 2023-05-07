@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d42d47f2fc6a264d838edfc11549671, type: 3}
+  m_Name: Lingering
+  m_EditorClassIdentifier: 
+  speakerName: Ling
+  paragraphs:
+  - I was of the mind I would finally meet someone past, an old friend. To share
+    a cup or a pint with, but alas your eyes say otherwise.
+  - Never did I think this is how you now present yourself. From not knowing one
+    is one, isn't this like a dream?
+  - Ling, you may call me. "General, I heed thy order," should I reply?  Do not take
+    me seriously. I am a poet, nevermore.
+  - A pity the people of now are, by and large unable to exercise patience. How our
+    present scholars suffer at this change in perception. Yet I have no objections
+    to today.
+  - You wish for me to compose a verse? Look for me when clouds ranged as billows,
+    the long road has withered, and when I depart this vista, to sail on a ferry.
+  - Even the great poets of our age, has times where one is lost for words. For how
+    can one think whilest drunk on reality?
